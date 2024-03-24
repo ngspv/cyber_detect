@@ -238,7 +238,7 @@ rf_results = ml_models.train_random_forest(X, y, hyperparameter_tuning=True)
 ```python
 from src.real_time_detector import RealTimeAnomalyDetector
 
-# Initialize detector
+
 detector = RealTimeAnomalyDetector(models=ml_models, feature_engineer=feature_eng)
 
 # Add custom alert callback
